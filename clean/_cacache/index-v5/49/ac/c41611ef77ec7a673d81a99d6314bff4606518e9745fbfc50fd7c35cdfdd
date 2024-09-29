@@ -1,2 +1,0 @@
-
-0b59d19d7d6621d812560a2c4dfd7374db531ad6	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/npm-run-all2","integrity":null,"time":1726457149994,"size":"262","metadata":{"time":1726457149994,"url":"https://registry.npm.taobao.org/npm-run-all2","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:49 GMT","location":"https://registry.npmmirror.com/npm-run-all2"},"options":{"compress":true},"status":301}}

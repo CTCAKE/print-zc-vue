@@ -1,2 +1,0 @@
-
-ee568008e60c7b0ed9594c3ff3a3b1a23aaec564	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/totalist","integrity":null,"time":1726457153963,"size":"262","metadata":{"time":1726457153963,"url":"https://registry.npm.taobao.org/totalist","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:53 GMT","location":"https://registry.npmmirror.com/totalist"},"options":{"compress":true},"status":301}}

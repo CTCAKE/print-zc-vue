@@ -1,2 +1,0 @@
-
-ccb4c3d20da756a7be018485ecc21c0bef1c91a1	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/superjson","integrity":null,"time":1726457153867,"size":"262","metadata":{"time":1726457153867,"url":"https://registry.npm.taobao.org/superjson","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:53 GMT","location":"https://registry.npmmirror.com/superjson"},"options":{"compress":true},"status":301}}

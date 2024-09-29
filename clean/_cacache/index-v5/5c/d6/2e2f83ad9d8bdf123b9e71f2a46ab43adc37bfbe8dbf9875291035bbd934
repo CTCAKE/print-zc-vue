@@ -1,2 +1,0 @@
-
-dab1bdf16502d374476780c2f272aa5ccd1e3e90	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/vue-tsc","integrity":null,"time":1726457150215,"size":"262","metadata":{"time":1726457150215,"url":"https://registry.npm.taobao.org/vue-tsc","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:49 GMT","location":"https://registry.npmmirror.com/vue-tsc"},"options":{"compress":true},"status":301}}

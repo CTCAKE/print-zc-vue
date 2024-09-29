@@ -1,2 +1,0 @@
-
-e9f3787b36e390acef2bcfa7f441060692f378a8	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@vue%2fdevtools-shared","integrity":null,"time":1726457150645,"size":"262","metadata":{"time":1726457150645,"url":"https://registry.npm.taobao.org/@vue%2fdevtools-shared","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/@vue%2fdevtools-shared"},"options":{"compress":true},"status":301}}

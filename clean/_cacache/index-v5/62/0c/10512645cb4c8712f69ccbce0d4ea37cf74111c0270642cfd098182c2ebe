@@ -1,2 +1,0 @@
-
-ad61f69cfd84d19d899a25c8bf146d26f74c8fe5	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/jsesc","integrity":null,"time":1726457151169,"size":"262","metadata":{"time":1726457151169,"url":"https://registry.npm.taobao.org/jsesc","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/jsesc"},"options":{"compress":true},"status":301}}

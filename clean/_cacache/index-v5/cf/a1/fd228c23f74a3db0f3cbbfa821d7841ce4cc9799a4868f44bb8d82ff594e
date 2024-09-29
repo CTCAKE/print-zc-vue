@@ -1,2 +1,0 @@
-
-b7a3f682f625b68506daa8bb000e6db515068209	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@esbuild%2flinux-s390x","integrity":null,"time":1726457153324,"size":"262","metadata":{"time":1726457153324,"url":"https://registry.npm.taobao.org/@esbuild%2flinux-s390x","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:52 GMT","location":"https://registry.npmmirror.com/@esbuild%2flinux-s390x"},"options":{"compress":true},"status":301}}

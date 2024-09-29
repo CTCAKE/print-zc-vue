@@ -1,2 +1,0 @@
-
-50869f4bcd6e8597c7e2c65b86f9216f2ba53890	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@esbuild%2fwin32-ia32","integrity":null,"time":1726457153179,"size":"262","metadata":{"time":1726457153178,"url":"https://registry.npm.taobao.org/@esbuild%2fwin32-ia32","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:52 GMT","location":"https://registry.npmmirror.com/@esbuild%2fwin32-ia32"},"options":{"compress":true},"status":301}}

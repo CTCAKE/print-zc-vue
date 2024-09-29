@@ -1,2 +1,0 @@
-
-2be15262ea47be24254b1a48cd0a00cdb257a7ec	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@babel%2fhelper-annotate-as-pure","integrity":null,"time":1726457150863,"size":"262","metadata":{"time":1726457150863,"url":"https://registry.npm.taobao.org/@babel%2fhelper-annotate-as-pure","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/@babel%2fhelper-annotate-as-pure"},"options":{"compress":true},"status":301}}

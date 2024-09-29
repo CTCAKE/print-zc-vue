@@ -1,2 +1,0 @@
-
-c9aec81c8e3a96025f7405bd1997188f9d100ff7	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/de-indent","integrity":null,"time":1726457155923,"size":"262","metadata":{"time":1726457155923,"url":"https://registry.npm.taobao.org/de-indent","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:55 GMT","location":"https://registry.npmmirror.com/de-indent"},"options":{"compress":true},"status":301}}

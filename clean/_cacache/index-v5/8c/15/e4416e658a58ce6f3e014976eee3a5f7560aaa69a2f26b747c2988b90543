@@ -1,2 +1,0 @@
-
-fb0287638c26a5c5702bb5c5abd56d021726071b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/read-package-json-fast","integrity":null,"time":1726457150512,"size":"262","metadata":{"time":1726457150512,"url":"https://registry.npm.taobao.org/read-package-json-fast","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/read-package-json-fast"},"options":{"compress":true},"status":301}}

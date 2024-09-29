@@ -1,2 +1,0 @@
-
-d3ab90adf8bf7df544d442d222cbe20bd3d8a51b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@babel%2fcompat-data","integrity":null,"time":1726457151170,"size":"262","metadata":{"time":1726457151170,"url":"https://registry.npm.taobao.org/@babel%2fcompat-data","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/@babel%2fcompat-data"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-6f13fdd22d8b315fe9b1f4398e076fa73d00c769	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/isexe","integrity":null,"time":1726457152764,"size":"262","metadata":{"time":1726457152764,"url":"https://registry.npm.taobao.org/isexe","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:52 GMT","location":"https://registry.npmmirror.com/isexe"},"options":{"compress":true},"status":301}}

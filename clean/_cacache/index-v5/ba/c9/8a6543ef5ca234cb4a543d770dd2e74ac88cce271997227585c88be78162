@@ -1,2 +1,0 @@
-
-7fb896bdae8b9f1c514e7f7c3e1cb60f42f2eb84	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/picomatch","integrity":null,"time":1726457154840,"size":"262","metadata":{"time":1726457154840,"url":"https://registry.npm.taobao.org/picomatch","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:54 GMT","location":"https://registry.npmmirror.com/picomatch"},"options":{"compress":true},"status":301}}

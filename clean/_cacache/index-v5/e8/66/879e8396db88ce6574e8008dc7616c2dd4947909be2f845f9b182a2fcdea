@@ -1,2 +1,0 @@
-
-f32073c589ca4cab035522a0d73eda91e49bce1c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/kolorist","integrity":null,"time":1726457154041,"size":"262","metadata":{"time":1726457154041,"url":"https://registry.npm.taobao.org/kolorist","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:53 GMT","location":"https://registry.npmmirror.com/kolorist"},"options":{"compress":true},"status":301}}

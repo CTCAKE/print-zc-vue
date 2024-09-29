@@ -1,2 +1,0 @@
-
-68afc05f0a623e43ee3368f6afa8c2944d8d3838	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/copy-anything","integrity":null,"time":1726457154491,"size":"262","metadata":{"time":1726457154491,"url":"https://registry.npm.taobao.org/copy-anything","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:54 GMT","location":"https://registry.npmmirror.com/copy-anything"},"options":{"compress":true},"status":301}}

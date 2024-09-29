@@ -1,2 +1,0 @@
-
-dab83ed2f984fbdbc94eb73d5fb3f49663308435	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/npm-normalize-package-bin","integrity":null,"time":1726457152633,"size":"262","metadata":{"time":1726457152633,"url":"https://registry.npm.taobao.org/npm-normalize-package-bin","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:52 GMT","location":"https://registry.npmmirror.com/npm-normalize-package-bin"},"options":{"compress":true},"status":301}}
