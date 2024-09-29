@@ -80,7 +80,6 @@ const submitForm = (formEl: FormInstance | undefined) => {
     if (valid) {
       const load = ElLoading.service({
         lock: true,
-        background: 'rgba(0, 0, 0, 0.7)',
       })
       //xhr
       const xhr = new XMLHttpRequest()
