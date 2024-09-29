@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { ElMessage, ElNotification } from 'element-plus';
+import { ElMessage } from 'element-plus';
 import Cookies from 'js-cookie';
 const xhr = new XMLHttpRequest();
 xhr.open("GET", "http://localhost:5000/getlinklist?username=" + Cookies.get("username") + "&password=" + Cookies.get("password"), false);
