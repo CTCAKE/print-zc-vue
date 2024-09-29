@@ -5,7 +5,7 @@ import { defineComponent} from 'vue';
 import { useRouter } from 'vue-router';
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { toRaw } from 'vue';
-import { ElLoading } from 'element-plus'
+import { ElLoading, ElMessage, ElMessageBox } from 'element-plus'
 import { watch } from 'vue';
 import { ElNotification } from 'element-plus'
 import config from '@/config.js';
@@ -103,6 +103,17 @@ onMounted(() => {
     isDark.value = event.matches;
   });
 });
+//检测后端是否运行
+const xhr = new XMLHttpRequest();
+xhr.open('GET', 'http://127.0.0.1:5000/GetServerTime', true);
+xhr.onreadystatechange = function () {
+  if (xhr.status === 200) {
+  } else {
+    ElMessage.error('后端服务器连接失败，请检查网络连接！')
+    ElLoading.service({ fullscreen: true })
+  }
+};
+xhr.send();
 </script>
 
 

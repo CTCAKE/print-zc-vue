@@ -80,7 +80,6 @@ const submitForm = (formEl: FormInstance | undefined) => {
     if (valid) {
       const load = ElLoading.service({
         lock: true,
-        text: '登录中...',
         background: 'rgba(0, 0, 0, 0.7)',
       })
       //xhr
@@ -95,15 +94,14 @@ const submitForm = (formEl: FormInstance | undefined) => {
             Cookies.set('login', 'true');
             Cookies.set('username', username);
             Cookies.set('password', password);
-            ElNotification({
-              title: '登录成功',
+            ElMessage({
               message: '欢迎回来，' + username,
               type: 'success',
             });
-            load.close();
             setTimeout(() => {
-              window.location.href = '/Admin/Index/'
+                window.location.href = '/Admin/Index/'
             }, 1000)
+            
           } else {
             ElMessage({
                 message: '登录失败：' + response,
@@ -115,7 +113,6 @@ const submitForm = (formEl: FormInstance | undefined) => {
         }
       }
       xhr.send(JSON.stringify(ruleForm))
-      load.close()
     } else {
       ElMessage({
         message: '出现错误！',

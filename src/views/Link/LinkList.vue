@@ -17,18 +17,14 @@
 </template>
 
 <script>
-import { ElNotification } from 'element-plus';
+import { ElMessage, ElNotification } from 'element-plus';
 import Cookies from 'js-cookie';
 const xhr = new XMLHttpRequest();
 xhr.open("GET", "http://localhost:5000/getlinklist?username=" + Cookies.get("username") + "&password=" + Cookies.get("password"), false);
 xhr.send();
 const tabledata = JSON.parse(xhr.responseText);
 if (tabledata.code != 0) {
-  ElNotification({
-    title: '错误',
-    message: tabledata.message,
-    type: 'error',
-  })
+  ElMessage.error(tabledata.message);
 }
 const data = tabledata.data;
 export default {

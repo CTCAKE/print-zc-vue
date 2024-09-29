@@ -8,6 +8,9 @@
       <span>目前只做了用户系统，由于我要上课，只能在放假的时候继续写。交流群：922459300 </span>
       <template #footer>
         <div class="dialog-footer">
+          <el-button type="primary" @click="donotshow">
+            不再显示
+          </el-button>
           <el-button type="primary" @click="dialogVisible = false">
             确定
           </el-button>
@@ -52,8 +55,8 @@
                         <span>链接管理</span>
                     </template>
                     <el-menu-item-group>
-                        <el-menu-item @click="handleMenuClick" index="links-list">子项 1</el-menu-item>
-                        <el-menu-item @click="handleMenuClick" index="links-add">子项 2</el-menu-item>
+                        <el-menu-item @click="handleMenuClick" index="links-list">链接列表</el-menu-item>
+                        <el-menu-item @click="handleMenuClick" index="links-add">添加链接</el-menu-item>
                     </el-menu-item-group>
                     </el-sub-menu>
                     <el-menu-item index="other" @click="handleMenuClick">
@@ -144,30 +147,24 @@
     const icon = ref('Fold');
     import * as ElementPlusIconsVue from '@element-plus/icons-vue'
     import { ref } from 'vue'
-    import { ElMessageBox, ElNotification } from 'element-plus'
+    import { ElMessage, ElMessageBox, ElNotification } from 'element-plus'
     import config from '@/config.js';
     import { RouterView } from 'vue-router'
     import { useRouter } from 'vue-router'
     const router = useRouter();
     let WebName = config.Website.name;
     const dialogVisible = ref(true)
+    if (Cookies.get('show') == 'false') {
+      dialogVisible.value = false
+    } else {
+      dialogVisible.value = true
+    }
     const username = Cookies.get('username');
-    import {
-      Document,
-      Menu as IconMenu,
-      Location,
-      Setting,
-    } from '@element-plus/icons-vue'
 import Cookies from 'js-cookie';
     const logout = () => {
         Cookies.remove('username');
         Cookies.remove('login');
-        ElNotification({
-            title: '提示',
-            message: '退出成功！',
-            type: 'success',
-            duration: 3000,
-        })
+        ElMessage.success('退出成功！');
         setTimeout(() => {
           window.location.href = '/login';
         }, 1000)
@@ -234,7 +231,10 @@ import Cookies from 'js-cookie';
         window.location.reload()
       }
 
-
+      const donotshow = () => {
+        dialogVisible.value = false
+        Cookies.set('show', 'false')
+      }
 
 
 
