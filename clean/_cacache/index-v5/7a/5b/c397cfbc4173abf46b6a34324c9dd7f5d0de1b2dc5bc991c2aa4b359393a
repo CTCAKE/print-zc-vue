@@ -1,0 +1,2 @@
+
+487aaffaf6cb0cd880656ad64de13071704fa7fc	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-what","integrity":null,"time":1726457154699,"size":"262","metadata":{"time":1726457154699,"url":"https://registry.npm.taobao.org/is-what","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:54 GMT","location":"https://registry.npmmirror.com/is-what"},"options":{"compress":true},"status":301}}

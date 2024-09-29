@@ -1,0 +1,2 @@
+
+036859bbf0634838a4e28bcab65a598e624d924b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/mrmime","integrity":null,"time":1726457153963,"size":"262","metadata":{"time":1726457153963,"url":"https://registry.npm.taobao.org/mrmime","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:53 GMT","location":"https://registry.npmmirror.com/mrmime"},"options":{"compress":true},"status":301}}

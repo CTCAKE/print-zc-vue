@@ -1,0 +1,2 @@
+
+9112e919336dc77f08831d5b28414dd78cae138a	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/strip-final-newline","integrity":null,"time":1726457153951,"size":"262","metadata":{"time":1726457153951,"url":"https://registry.npm.taobao.org/strip-final-newline","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:53 GMT","location":"https://registry.npmmirror.com/strip-final-newline"},"options":{"compress":true},"status":301}}

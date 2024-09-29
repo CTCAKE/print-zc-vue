@@ -1,0 +1,2 @@
+
+25717085e077aad5bb9e1d684a176890e295a36b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/terser","integrity":null,"time":1726457149635,"size":"262","metadata":{"time":1726457149635,"url":"https://registry.npm.taobao.org/terser","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:49 GMT","location":"https://registry.npmmirror.com/terser"},"options":{"compress":true},"status":301}}

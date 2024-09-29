@@ -1,0 +1,2 @@
+
+ff0dd2b043d5a326e8afc160ab491657b1d89fb3	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/esbuild","integrity":null,"time":1726457150399,"size":"262","metadata":{"time":1726457150399,"url":"https://registry.npm.taobao.org/esbuild","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/esbuild"},"options":{"compress":true},"status":301}}

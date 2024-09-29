@@ -1,0 +1,2 @@
+
+98a431b2a67c4fc52d43b398accd71ba74191add	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@ampproject%2fremapping","integrity":null,"time":1726457150869,"size":"262","metadata":{"time":1726457150869,"url":"https://registry.npm.taobao.org/@ampproject%2fremapping","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/@ampproject%2fremapping"},"options":{"compress":true},"status":301}}

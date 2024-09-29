@@ -1,0 +1,2 @@
+
+8aa4b3117c705cdc5971ed78a96f28ff0ae17ac1	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/cross-spawn","integrity":null,"time":1726457150434,"size":"262","metadata":{"time":1726457150434,"url":"https://registry.npm.taobao.org/cross-spawn","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/cross-spawn"},"options":{"compress":true},"status":301}}

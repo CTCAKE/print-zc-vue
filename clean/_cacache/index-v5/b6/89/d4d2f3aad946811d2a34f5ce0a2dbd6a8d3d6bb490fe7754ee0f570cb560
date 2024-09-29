@@ -1,0 +1,2 @@
+
+616e4625836404a7f00b1222786b41dca740beda	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/sirv","integrity":null,"time":1726457150593,"size":"262","metadata":{"time":1726457150593,"url":"https://registry.npm.taobao.org/sirv","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/sirv"},"options":{"compress":true},"status":301}}

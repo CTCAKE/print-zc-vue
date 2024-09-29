@@ -1,0 +1,2 @@
+
+b5acc40cc882c72032c36b1975b8b05d480853ba	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@vue%2fdevtools-core","integrity":null,"time":1726457150639,"size":"262","metadata":{"time":1726457150639,"url":"https://registry.npm.taobao.org/@vue%2fdevtools-core","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/@vue%2fdevtools-core"},"options":{"compress":true},"status":301}}

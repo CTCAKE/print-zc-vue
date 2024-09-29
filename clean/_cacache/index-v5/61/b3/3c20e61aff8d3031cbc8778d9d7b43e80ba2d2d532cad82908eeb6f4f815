@@ -1,0 +1,2 @@
+
+fbf756b4dbf6d061a1b4f7625980a64f085a0508	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/shell-quote","integrity":null,"time":1726457150552,"size":"262","metadata":{"time":1726457150552,"url":"https://registry.npm.taobao.org/shell-quote","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Mon, 16 Sep 2024 03:25:50 GMT","location":"https://registry.npmmirror.com/shell-quote"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+d4208b279bfb224348672760692e3a584426d1b8	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@types%2fjs-cookie","integrity":null,"time":1726543593439,"size":"262","metadata":{"time":1726543593438,"url":"https://registry.npm.taobao.org/@types%2fjs-cookie","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Tue, 17 Sep 2024 03:26:33 GMT","location":"https://registry.npmmirror.com/@types%2fjs-cookie"},"options":{"compress":true},"status":301}}
