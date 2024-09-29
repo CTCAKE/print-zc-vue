@@ -13,7 +13,6 @@ pr-admin 是一个基于 vue 的后台管理系统，采用前后端分离架构
 
 ## 技术栈
 
-
 - 前端：Vue.js、Element UI、Axios
 - 后端：Python、Flask
 - 数据库：MySQL
