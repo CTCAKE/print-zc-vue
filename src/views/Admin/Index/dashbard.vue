@@ -51,7 +51,7 @@
                 </el-menu-item>
                     <el-sub-menu index="links" >
                     <template #title>
-                        <el-icon><location /></el-icon>
+                      <el-icon><Link /></el-icon>
                         <span>链接管理</span>
                     </template>
                     <el-menu-item-group>
@@ -59,13 +59,22 @@
                         <el-menu-item @click="handleMenuClick" index="links-add">添加链接</el-menu-item>
                     </el-menu-item-group>
                     </el-sub-menu>
-                    <el-menu-item index="other" @click="handleMenuClick">
-                    <el-icon><setting /></el-icon>
-                    <template #title>Navigator Four</template>
-                    </el-menu-item>
+                    <el-sub-menu index="pkgs" >
+                    <template #title>
+                      <el-icon><FirstAidKit /></el-icon>
+                        <span>套餐管理</span>
+                    </template>
+                    <el-menu-item-group>
+                        <el-menu-item @click="handleMenuClick" index="pkgs-list">套餐列表</el-menu-item>
+                        <el-menu-item @click="handleMenuClick" index="pkgs-add">添加套餐</el-menu-item>
+                    </el-menu-item-group>
+                    </el-sub-menu>
                     </el-menu>
         </el-aside>
-        <el-main class="main-content"><RouterView /></el-main>
+        <el-main class="main-content">
+          
+    <RouterView />
+  </el-main>
       </el-container>
     </el-container>
   </div>
@@ -143,11 +152,19 @@
     height: 50%;
 }
 </style>
+<style>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+</style>
 <script lang="ts" setup>
     const icon = ref('Fold');
     import * as ElementPlusIconsVue from '@element-plus/icons-vue'
     import { ref } from 'vue'
-    import { ElMessage, ElMessageBox, ElNotification } from 'element-plus'
+    import { ElLoading, ElMessage, ElMessageBox, ElNotification } from 'element-plus'
     import config from '@/config.js';
     import { RouterView } from 'vue-router'
     import { useRouter } from 'vue-router'
@@ -181,20 +198,36 @@ import Cookies from 'js-cookie';
     isCollapse.value = !isCollapse.value;
     icon.value = isCollapse.value ? 'Expand' : 'Fold';
     };
+  
     const handleMenuClick = (index: string) => {
+      const loading = ElLoading.service({
+        lock: true,
+        text: 'Loading',
+        background: 'rgba(0, 0, 0, 0.7)',
+      })
         index = index.index
         console.log(index)
-        if(index == "info"){
+        setTimeout(() => {
+          if(index == "info"){
             router.push('/Admin/Info')
         } else if(index == "links-list"){
           router.push('/Admin/Link/List')
         } else if(index == "links-add"){
           router.push('/Admin/Link/Add')
+        } else if(index == "pkgs-list"){
+          router.push('/Admin/Pkgs/List')
+        } else if(index == "pkgs-add"){
+          router.push('/Admin/Pkgs/Add')
         } else {
             ElMessageBox.alert('功能暂未开放', '提示', {
             confirmButtonText: '确定',
             })
         }
+        
+        loading.close()
+        }, 150)
+        
+        
       }
       const currentRoute = useRouter().currentRoute.value;
       const currentPath = currentRoute.path;
