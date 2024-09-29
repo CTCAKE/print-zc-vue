@@ -203,7 +203,7 @@ import Cookies from 'js-cookie';
         }, 1000)
         
     }
-    const isCollapse = ref(false)
+    const isCollapse = ref(true)
     const handleOpen = (key: string) => {
       //console.log(key)
     }
@@ -224,17 +224,23 @@ import Cookies from 'js-cookie';
         index = index.index
         console.log(index)
         setTimeout(() => {
-          if(index == "info"){
-            router.push('/Admin/Info')
+        if(index == "info"){
+          router.push('/Admin/Info')
+          document.title = '信息管理 - PRINT'
         } else if(index == "links-list"){
+          document.title = '链接列表 - PRINT'
           router.push('/Admin/Link/List')
         } else if(index == "links-add"){
+          document.title = '添加链接 - PRINT'
           router.push('/Admin/Link/Add')
         } else if(index == "pkgs-list"){
           router.push('/Admin/Pkgs/List')
+          document.title = '套餐列表 - PRINT'
         } else if(index == "pkgs-add"){
           router.push('/Admin/Pkgs/Add')
+          document.title = '添加套餐 - PRINT'
         } else {
+            document.title = '后台管理 - PRINT'
             ElMessageBox.alert('功能暂未开放', '提示', {
             confirmButtonText: '确定',
             })

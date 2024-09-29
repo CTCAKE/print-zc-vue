@@ -30,7 +30,7 @@ import { useRoute } from 'vue-router';
 const route = useRoute();
 const router = useRouter();
 const isCur = ref<number | null>(null);
-
+document.title = '欢迎回来 - PRINT'
 watch(
   () => route.path,
   (newValue, oldValue) => {
@@ -45,7 +45,6 @@ watch(
     } else {
       isCur.value = null;
     }
-    console.log("isCur.value", isCur.value);
   }
 );
 function pingIPAndPort(ip, port) {
