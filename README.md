@@ -64,7 +64,7 @@ npm run dev
 ```
 
 ## 后端
-https://github.com/CTCAKE/print-zc-python\
+https://github.com/CTCAKE/print-zc-python \
 后端使用 python 框架 Flask，数据库使用 MySQL。
 
 ### 部署
