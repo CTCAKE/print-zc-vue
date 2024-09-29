@@ -5,7 +5,7 @@
       width="70%"
       :before-close="handleClose"
     >
-      <span>目前只做了用户系统，由于我要上课，只能在放假的时候继续写。交流群：922459300 </span>
+      <span>{{ notice }}</span>
       <template #footer>
         <div class="dialog-footer">
           <el-button type="primary" @click="donotshow">
@@ -171,10 +171,26 @@
     const router = useRouter();
     let WebName = config.Website.name;
     const dialogVisible = ref(true)
-    if (Cookies.get('show') == 'false') {
-      dialogVisible.value = false
-    } else {
+    const notice = config.Website.notice;
+    if (Cookies.get('notice') == undefined) {
+      console.log('Cookie未设置')
+      Cookies.set('notice', notice)
+      console.log('cookie已更新')
       dialogVisible.value = true
+    } else {
+      if (Cookies.get('notice') == notice) {
+        console.log('Cookie已设置,公告内容一致')
+        console.log('cookie无需更新')
+        if (Cookies.get('show') == 'false') {
+          dialogVisible.value = false
+        } else {
+          dialogVisible.value = true
+        }
+      } else {
+        console.log('Cookie已设置,公告内容不一致')
+        Cookies.set('notice', notice)
+        console.log('cookie已更新')
+      }
     }
     const username = Cookies.get('username');
 import Cookies from 'js-cookie';
